@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="cart">
+          <img src="https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/shopping-cart-icon.png" alt="cart">      
+          <span>Shopping Cart</span>  
+          
+        </div>
+        
+        <div class="sign">
+          <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/login-person-man-user-51105.png?f=avif&w=128" alt="sign_logo">
+          <span>Sign In/ Register</span>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="nav">
+        <div class="first">
+          <div class="logo">
+            <img src="img/yard-logo.png" alt="yardlogo" height="110px" width="105px">
+          </div>
+          <div class="num">
+            <p>512-219-8000</p>
+          </div>
+        </div>
+        <div class="second">
+          <p><a href="">Yard Signs</a></p>
+          <p><a href="">Banners</a></p>
+          <p><a href="">Accesories</a></p>
+          <p><a href="">Gallery</a></p>
+          <p><a href="">About</a></p>
+          <p><a href="">Price</a></p>
+          <p><a href="">Materials</a></p>
+          <p><a href="">Materials</a></p>
+          <p><a href="">FAQ</a></p>
+          <div>
+            <p class="cq"><a href="">Custom Quote</a></p>
+          </div>
+          
+        </div>
+        
+      </div>
+
+
+
+      <div class="content">
+        <div class="headline">
+          <h1>Big Headlines</h1>
+          <h2>Smaller Subhead Here</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, nam suscipit fugit obcaecati odio, magnam deleniti voluptatum atque cupiditate a ab ipsum et dolor, cum culpa? Consequuntur totam eos alias.</p>
+          <input type="submit" value="Get Started">
+        </div>
+        <div class="form">
+          <input type="text" placeholder="First Name:">
+          <input type="text" placeholder="Last Name:">
+          <br>
+          <br>
+          <input type="email" placeholder="Email:">
+          <input type="text" placeholder="Mobile Number:">
+          <br>
+          <br>
+          <textarea placeholder="Message" ></textarea>
+          <br>
+          <br>
+          <input type="submit" value="SEND">
+        </div>
+      </div>
+
+
+
+      <div class="title">
+        <div class="text">          
+          <h2>This is where an Awesome Title Goes</h2>
+          <p>And this is text copied pasted over and over and over and over and over and over and Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam perferendis debitis quae facere, odit ad perspiciatis numquam atque dolores explicabo repellendus necessitatibus quaerat adipisci ipsum iste at incidunt neque eos! </p>
+        </div>
+        <div class="design">
+          <input type="submit" value="Design It Now">
+        </div>
+      </div>
+
+
+      <div class="video">
+        <div>
+          <img src="img/video.jpg" alt="video">
+        </div>
+        <div class="headline" style="margin-left:80px">
+          <h1>Watch This</h1>
+          <h2>It's video,yo!</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, nam suscipit fugit obcaecati odio, magnam deleniti voluptatum atque cupiditate a ab ipsum et dolor, cum culpa? Consequuntur totam eos alias.</p>
+          <input type="submit" value="Learn More" id="learn">
+        </div>
+        
+      </div>
+
+
+      <div class="project">
+        <div class="pr">
+          <img src="img/download (1).jpeg" alt="p1">
+          <h2>Project One</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatibus libero debitis. Consectetur, ducimus impedit eum ad adipisci quos. </p>
+        </div>
+        <div class="pr">
+          <img src="img/download (2).jpeg" alt="p2">
+          <h2>Project Two</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatibus libero debitis. Consectetur, ducimus impedit eum ad facilis adipisci quos. </p>
+        </div>
+        <div class="pr">
+          <img src="img/download (3).jpeg" alt="p3">
+          <h2>Project Three</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatibus libero debitis. Consectetur, ducimus impedit eum adfacilis adipisci quos. </p>
+        </div>
+        <br>
+        <input type="submit" value="Learn More" >
+        
+      </div>
+
+
+
+
+      <div class="footer">
+        <div class="cnt">
+          <h4>Help</h4>
+          <p>Contact us</p>
+          <p>F.A.Q.</p>
+          <p>Sitemap</p>
+          <p>Pricing</p>
+          <p>Redeem Promo</p>
+          <br>
+          <h4>Account</h4>
+          <p>My Account</p>
+        </div>
+
+        <div class="cnt">
+          <h4>Products</h4>
+          <p>Yard Signs</p>
+          <p>Real Estate Signs</p>
+          <p>Vinyl Banners</p>
+          <p>Car Magnetics</p>
+          <p>Banner Stands</p>
+          <p>Accessories</p>
+          <p>Design Services</p>
+        </div>
+
+        <div class="cnt">
+          <h4>Company</h4>
+          <p>Overview</p>
+          <p>Press Room</p>
+          <p>Careees</p>
+          <p>Review</p>
+          <br>
+          <h4>Programs</h4>
+          <p>Affilate</p>
+        </div>
+
+        <div class="cnt">
+          <h4>Help</h4>
+          <p>Contact us</p>
+          <p>F.A.Q.</p>
+          <p>Sitemap</p>
+          <p>Pricing</p>
+          <p>Redeem Promo</p>
+          <br>
+          <h4>Account</h4>
+          <p>My Account</p>
+        </div>
+
+        <div class="cnt">
+          <h4>Products</h4>
+          <p>Yard Signs</p>
+          <p>Real Estate Signs</p>
+          <p>Vinyl Banners</p>
+          <p>Car Magnetics</p>
+          <p>Banner Stands</p>
+          <p>Accessories</p>
+          <p>Design Services</p>
+        </div>
+
+        <div class="cnt">
+          <h4>Company</h4>
+          <p>Overview</p>
+          <p>Press Room</p>
+          <p>Careees</p>
+          <p>Review</p>
+          <br>
+          <h4>Programs</h4>
+          <p>Affilate</p>
+        </div>
+        
+      </div>
+
+      <div class="footerend">
+        <p>Copyright&#169; 2016 signDepotATX.com
+        </p>
+    </div>
+    </div>
+  </body>
+</html>
