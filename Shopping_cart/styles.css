@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(67, 67, 67);
+}
+
+input[type=submit]{
+    cursor: pointer;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100vw;
+    background-color: rgb(213, 216, 215);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 900;
+}
+
+.header img{
+    margin-left: 250px;
+    margin-top:10px;
+    height:30px;
+    width: 30px;
+}
+
+.header .cart{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+
+.cart span{
+    margin-top: 16px;
+    margin-left: 14px;
+}
+
+.sign{
+    display: flex;
+    flex-direction: row;
+    margin-left: 640px;
+}
+
+.sign span{
+    margin-top: 16px;
+    margin-left: 5px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+}
+
+.first .logo{
+    margin:15px;
+    margin-left: 350px;
+}
+
+.num{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(96, 96, 96);
+    margin-left: 700px;
+    margin-top: 34px;
+}
+.second{
+    margin-top: 20px;
+    margin-left: 290px;
+}
+.nav{
+    margin-bottom: 20px;
+}
+.second div{
+    display: inline-block;
+    height:38px;
+    margin-left: 30px;
+    width: 180px;
+    background-color: rgb(226, 112, 71);
+}
+.cq{
+    margin-left: -9px;
+    padding-top:5px ;
+    font-weight: bold;
+}
+
+
+.second p{
+    display: inline-block;
+    font-size: 22px;
+    padding-left: 35px;
+}
+
+.second a{    
+    text-decoration: none;
+}
+
+.cq a{
+    color: white;
+}
+
+.content{
+    background-color: rgb(213, 216, 215);
+}
+
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+}
+
+.headline{
+    margin-top:50px;
+    margin-left:300px;
+    width: 30%;
+}
+
+.headline h1{
+    font-size: 60px;
+}
+
+.headline h2{
+    font-size: 30px;
+}
+
+.headline p{
+    padding-top: 10px;
+}
+
+.headline input[type=submit]{
+    margin-top: 20px;
+    background-color: rgb(226, 112, 71);
+    text-align: center;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    color: white;
+    font-size: 18px;
+    border-style: none;
+    font-weight: bold;
+}
+
+.form{
+    margin-top:40px;
+    margin-left: 55px;
+    
+}
+
+.form input,textarea{
+    background-color: rgb(213, 216, 215);
+    height:32px;
+    border-radius: 9px;
+    margin-left: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-color: rgb(189, 190, 197);
+    /* border-style: none; */
+}
+
+textarea {
+    width: 525px;
+    height: 150px;
+}
+  
+input[type=submit]{
+    background-color: rgb(226, 112, 71);
+    text-align: center;
+    width: 540px;
+    height: 40px;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+}
+
+.title{
+    background-color: #20a3d8;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+.text{
+    margin-top:40px;
+    margin-left:310px;
+    width: 40%;
+}
+
+.title h2{
+    color: white;
+    font-size: 30px;
+}
+
+.title p{
+    color: white;
+}
+
+.design input[type=submit]{
+    margin-top: 60px;
+    margin-left: 200px;
+    width:170px;
+    background-color: white;
+    color: #20a3d8;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.video{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(213, 216, 215);
+    padding-bottom: 50px;
+}
+
+.video img{
+    width: 560px;
+    margin-top:50px;
+    margin-left:320px;
+    float: left;
+}
+
+#learn{
+    border-radius: 0;
+    height: 45px;
+    width: 180px;
+}
+
+.project{
+    margin-top: 40px;
+    margin-left: 160px;
+    padding-bottom: 40px;
+}
+
+.project div{
+    width: 250px;
+    display: inline-block;
+    margin-left: 180px;
+}
+
+.pr h2{
+    color: rgb(112, 112, 112);
+    padding-top: 10px;
+}
+
+.pr p{
+    color: rgb(112, 112, 112);
+    padding-top: 10px;
+}
+
+.project input[type=submit]{
+    border-radius: 0;
+    height: 40px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 660px;
+}
+
+.footer{
+    background-color: gray;
+    padding-left: 280px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+.footer h4{
+    color: white;
+}
+
+.footer p{
+    color: white;
+}
+
+.cnt{
+    margin-left:100px;
+}
+
+.footerend{
+    /* position: fixed; */
+    width: 100%;
+    height: 30px;
+    background-color: rgba(94, 94, 94, 0.992);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.footerend p{
+    color: white;
+}
+
+@media only screen and (max-width: 1500px) {
+    .header{
+        width: 100%;
+        background-color: rgb(213, 216, 215);
+        height: 100px;
+        display: flex;
+        /* flex-direction: column; */
+        font-weight: 900;
+        padding-top: 20px;
+    }
+    
+    .header img{
+        margin-left: 50px;
+        margin-top:10px;
+        height:30px;
+        width: 30px;
+    }
+    
+    .header .cart{
+        display: flex;
+        /* flex-direction: row; */
+        margin-left: 10px;
+    }
+    
+    .sign{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+    }
+
+    .first{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    
+    .first .logo{
+        margin:15px;
+        margin-left: 100px;
+    }
+    
+    .num{
+        font-size: 50px;
+        font-weight: bolder;
+        color: rgb(96, 96, 96);
+        margin-left: 70px;
+        margin-top: 34px;
+    }
+
+    .second{
+        margin-top: 20px;
+        margin-left: 50px;
+        display: flex;
+        /* flex-direction: column; */
+        padding-top: 20px;
+    }
+    .second div{
+        display: block;
+        height:30px;
+        width: 180px;
+        margin-left: 26px;
+        margin-right: 36px;
+        /* margin-top:-10px;
+        margin-bottom:10px ; */
+        padding-right: 12px;
+        padding-bottom: 20px;
+        background-color: rgb(226, 112, 71);
+    }
+    .second p{
+        padding-top: 10px;
+        padding-left: 35px;
+    }
+    
+    .cq{
+        margin-left: -2px;
+        padding-right:2px;
+        /* margin-right: 2px; */
+        font-weight: bold;
+    }
+    
+    
+    .content{
+        padding: 20px;
+        display: flex;
+        /* flex-direction: column; */
+        padding-left: 2px;
+        padding-bottom: 80px;
+    }
+    .headline{
+        margin-top:50px;
+        margin-left:100px;
+        width: 50%;
+    }
+
+
+    .form{
+        margin-top:40px;
+        margin-left: 50px;
+    }
+
+    .form input,textarea{
+        background-color: rgb(213, 216, 215);
+        height:32px;
+        border-radius: 9px;
+        margin-left: 4px;
+        padding-left: -10px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    textarea {
+        width: 500px;
+        height: 150px;
+    }
+
+
+    input[type=submit]{
+        background-color: rgb(226, 112, 71);
+        text-align: center;
+        width: 500px;
+        height: 40px;
+        color: white;
+        border-style: none;
+        font-weight: bold;
+    }   
+    .title{
+        background-color: #20a3d8;
+        display: flex;
+        /* flex-direction: column; */
+        padding-bottom: 40px;
+    }
+
+
+    .design input[type=submit]{
+        margin-top: 60px;
+        margin-left: 150px;
+        width:170px;
+        background-color: white;
+        color: #20a3d8;
+        font-size: 18px;
+        font-weight: bold;
+        border-style: none;
+    }
+
+    .text{
+        margin-top:40px;
+        margin-left:110px;
+        width: 40%;
+    }
+
+    .video{
+        display: flex;
+        /* flex-direction: column; */
+        background-color: rgb(213, 216, 215);
+        padding-bottom: 40px;
+    }
+
+    .video img{
+        margin-top:50px;
+        margin-left:70px;
+        width: 350px;
+        height: 200px;
+    }
+
+    #learn{
+        border-radius: 0;
+        margin-left: 70px;
+        height: 45px;
+        width: 180px;
+    }    
+
+    .project{
+        margin-top: 40px;
+        margin-left: 100px;
+        padding-bottom: 40px;
+    }
+
+    .project div{
+        width: 50%;
+        display: block;
+        margin-left: 5px;
+        padding-bottom: 30px;
+    }
+
+
+    .project input[type=submit]{
+        border-radius: 0;
+        height: 40px;
+        width: 180px;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .footer{
+        background-color: gray;
+        padding-left: 10px;
+        padding-top: 40px;
+        display: flex;
+        /* flex-direction: column; */
+        padding-bottom: 70px;
+    }
+  }
+
+
+  @media only screen and (max-width: 1200px) {
+    .header{
+        width: 100%;
+        background-color: rgb(213, 216, 215);
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 900;
+        padding-top: 20px;
+    }
+    
+    .header img{
+        margin-left: 70px;
+        margin-top:10px;
+        height:30px;
+        width: 30px;
+    }
+    
+    .header .cart{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+    }
+
+    .sign{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+    }
+
+    .first{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first .logo{
+        margin:15px;
+        margin-left: 100px;
+    }
+    
+    .num{
+        font-size: 50px;
+        font-weight: bolder;
+        color: rgb(96, 96, 96);
+        margin-left: 70px;
+        margin-top: 34px;
+    }
+
+    .second{
+        margin-top: 20px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .second div{
+        display: block;
+        height:30px;
+        width: 180px;
+        margin-left: 10px;
+        margin-top:10px;
+        padding-bottom:18px ;
+        background-color: rgb(226, 112, 71);
+    }
+    .second p{
+        padding-top: 10px;
+    }
+    .cq{
+        margin-left: -9px;
+        padding-bottom:2px ;
+        font-weight: bold;
+    }
+    
+    .content{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2px;
+        padding-bottom: 80px;
+    }
+    .headline{
+        margin-top:50px;
+        margin-left:100px;
+        width: 50%;
+    }
+
+
+    .form{
+        margin-top:40px;
+        margin-left: 100px;
+    }
+
+    .form input,textarea{
+        background-color: rgb(213, 216, 215);
+        height:32px;
+        border-radius: 9px;
+        margin-left: 0px;
+        padding-left: -10px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    textarea {
+        width: 300px;
+        height: 150px;
+    }
+
+
+    input[type=submit]{
+        background-color: rgb(226, 112, 71);
+        text-align: center;
+        width: 300px;
+        height: 40px;
+        color: white;
+        border-style: none;
+        font-weight: bold;
+    }   
+    .title{
+        background-color: #20a3d8;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+
+    .design input[type=submit]{
+        margin-top: 60px;
+        margin-left: 150px;
+        width:170px;
+        background-color: white;
+        color: #20a3d8;
+        font-size: 18px;
+        font-weight: bold;
+        border-style: none;
+    }
+
+    .text{
+        margin-top:40px;
+        margin-left:110px;
+        width: 40%;
+    }
+
+    .video{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(213, 216, 215);
+        padding-bottom: 40px;
+    }
+
+    .video img{
+        margin-top:50px;
+        margin-left:70px;
+        width: 350px;
+        height: 200px;
+    }
+
+    #learn{
+        border-radius: 0;
+        margin-left: 70px;
+        height: 45px;
+        width: 180px;
+    }    
+
+    .project{
+        margin-top: 40px;
+        margin-left: 100px;
+        padding-bottom: 40px;
+    }
+
+    .project div{
+        width: 50%;
+        display: block;
+        margin-left: 5px;
+        padding-bottom: 30px;
+    }
+
+
+    .project input[type=submit]{
+        border-radius: 0;
+        height: 40px;
+        width: 180px;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .footer{
+        background-color: gray;
+        padding-left: 10px;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+  }
+  
