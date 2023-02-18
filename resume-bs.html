@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Bootstap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <style>
+      
+      img{
+        margin-top: 0;
+        width:220px;
+        height: 200px;
+      }
+      nav{
+        height: 990px;
+        width: 25%;
+      }
+
+      @media (max-width: 1300px) {
+        img{
+          width: 180px;
+          height: 150px;
+        }
+      }
+
+      @media(max-width: 700px){
+        img{
+          padding-top: 30px;
+          padding-left: 30px;
+          width: 170px;
+          height: 150px;
+        }
+        
+        nav{
+          height: 340px;
+          width: 100%;
+        }
+        .navbar div{
+          height:50px;
+          width: 1000px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+          
+      <div class="d-flex flex-column flex-sm-row flex-md-row collapse navbar-collapse " id="navbarSupportedContent">
+        
+        <nav class="d-flex flex-column flex-sm-column flex-md-column flex-lg-row navbar navbar-expand-lg navbar-dark bg-dark  bg-secondary mb-0 pt-0 pb-0 text-white">
+          <div class="container-fluid m-0 p-4 w-100">
+            <div class=" d-block d-sm-block d-md-block bg-dark pt-2 ps-4 align-items-center justify-content-center">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+            </div>
+          
+            <div class="collapse navbar-collapse  " id="navbarNavAltMarkup">
+              <div class="d-flex flex-sm-row flex-md-column flex-lg-column justify-content-sm-around">
+                <img  src="https://media.istockphoto.com/photos/facing-my-future-with-confidence-picture-id1139495117?b=1&k=20&m=1139495117&s=612x612&w=0&h=lmJ-LbvRQ87kDzeX0TVHX87thzkYxVsdT8oN1LXQ5fE=" class="rounded-circle bg-dark  p-2 ms-2 " alt="student_image">
+                <ul class="navbar-nav ms-5 mt-2  me-auto mb-2 text-white d-block">
+                  <li class="nav-item"><a class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" href="#img">Image</a></li>
+                  <li class="nav-item"><a class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" href="#obj">Objectives</a></li>
+                  <li class="nav-item"><a class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" href="#personalInfo">Personal Info</a></li>
+                  <li class="nav-item"><a class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" href="#Experience">Experience</a></li>
+                  <li class="nav-item"><a class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" href="#edu">Education</a></li>
+                </ul>
+            </div>
+            </div>
+          </div>
+        </nav>
+
+        
+
+        <div class="w-75 h-100 m-3 ps-3 p-3">
+          
+
+          <div id="obj" class="collapse" data-bs-parent="#navbarSupportedContent" >
+            <h2>Objectives</h2>
+            <p>I am currenty studing of Bachlor of Engineering in Information Technology from Saffrony Institute of Technology. I have a Experience with the HTML, CSS, JavaScript, ReactJs and NodeJs. I am very passionate about the implementing the new project and deploy it. I made some projects using it and some of they are deployed also on Github.</p>
+            <p> I have solved 700+ problems on Leetcode, Secure the global rank of 255 in CodeChef March Lunchtime Challenge. I have currenty having the 2nd rank in GeeksforGeeks in our Institute.</p>
+            <p>I am a 3 star in CodeChef, 4 star in LeetCode and 5 star in Hackerrank</p>
+          </div>
+
+          <div id="personalInfo" class="collapse" data-bs-parent="#navbarSupportedContent"  >
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> Yukta Saraiya</p>
+            <p><strong>Mobile number:</strong> 9876543210</p>
+            <p><strong>Email:</strong> yuktasaraiya@gmail.com</p>
+            <p><strong>Collage Name:</strong> Saffrony Institute of Technology</p>
+            <p><strong>City:</strong> Surat</p>
+            <p><strong>Pincode:</strong> 395004</p>
+            <p><strong>Github:</strong> yukta22</p> 
+          </div>
+
+          <div id="Experience" class="collapse" data-bs-parent="#navbarSupportedContent" >
+            <h2>Experience</h2>
+                  
+            <p><strong>Infolabz </strong> | React Developer Intern</p> 
+            
+            <ul>
+                <li>I designed dynamic website using the React Technology</li>
+                <li>I have also worked on the live ApIs to build real-time dynamic webpages. in order to fetch the live data, with the used of some concept of http and es6.</li>
+            </ul>
+                  
+          </div>
+
+          <div id="edu" class="collapse" data-bs-parent="#navbarSupportedContent" >
+            <h2>Education </h2>
+            <ul>
+                <li>
+                    <dl><strong>Saffrony Institute of Technology </strong>| 2019-2023.</dl>
+                        <dd>B. E. | Information Technology</dd>
+                        <dd>CGPA: 9.48</dd>
+                </li>
+                <br>    
+                <li>
+                    <dl><strong>P. P. Savani vidhyabhavan </strong> | 2017-2019</dl>
+                        <dd>class XII | Science</dd>
+                        <dd>Percentile: 79%</dd>
+                </li>
+            </ul>
+
+        </div>
+
+
+        </div>
+        
+      </div>
+    
+    
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
